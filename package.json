@@ -1,0 +1,36 @@
+{
+  "name": "typescript-decorate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node-dev ./src/index.ts -P tsconfig.json --no-cache",
+    "build": "tsc -P tsconfig.json && node ./dist/index.js",
+    "tslint": "tslint --fix -p tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prw1012/typescript-decorate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prw1012/typescript-decorate/issues"
+  },
+  "homepage": "https://github.com/prw1012/typescript-decorate#readme",
+  "devDependencies": {
+    "@types/node": "^12.12.16",
+    "async-validator": "^3.2.3",
+    "koa-xtime": "^1.0.0",
+    "parameter": "^3.6.0",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "tslint": "^5.20.1",
+    "typescript": "^3.7.3"
+  },
+  "dependencies": {
+    "koa": "^2.11.0",
+    "koa-body": "^4.1.1",
+    "koa-router": "^7.4.0"
+  }
+}
